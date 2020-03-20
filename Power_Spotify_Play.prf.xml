@@ -1,0 +1,59 @@
+<TaskerData sr="" dvi="1" tv="5.9.2">
+	<Profile sr="prof6" ve="2">
+		<cdate>1584513763808</cdate>
+		<edate>1584692103576</edate>
+		<flags>8</flags>
+		<id>6</id>
+		<limit>true</limit>
+		<mid0>22</mid0>
+		<mid1>28</mid1>
+		<nme>Power_Spotify_Play</nme>
+		<State sr="con0" ve="2">
+			<code>10</code>
+			<Int sr="arg0" val="0"/>
+		</State>
+	</Profile>
+	<Task sr="task22">
+		<cdate>1584537634412</cdate>
+		<edate>1584616660780</edate>
+		<id>22</id>
+		<nme>Spotify_play</nme>
+		<Action sr="act0" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="5"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>443</code>
+			<Int sr="arg0" val="5"/>
+			<Int sr="arg1" val="1"/>
+			<App sr="arg2">
+				<appClass>com.spotify.music.MainActivity</appClass>
+				<appPkg>com.spotify.music</appPkg>
+				<label>Spotify</label>
+			</App>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task28">
+		<cdate>1584612549207</cdate>
+		<edate>1584619191911</edate>
+		<id>28</id>
+		<nme>Spotify_kill</nme>
+		<pri>1006</pri>
+		<Action sr="act0" ve="7">
+			<code>443</code>
+			<Int sr="arg0" val="4"/>
+			<Int sr="arg1" val="1"/>
+			<App sr="arg2">
+				<appClass>com.spotify.music.MainActivity</appClass>
+				<appPkg>com.spotify.music</appPkg>
+				<label>Spotify</label>
+			</App>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
